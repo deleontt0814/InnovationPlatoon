@@ -7,9 +7,10 @@
     <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">New Technology</a>
         <div class="dropdown-content">
-          <a href="">Unmanned Drone</a>
+          <a href="../NewTechnology/Drone.php">Unmanned Drone</a>
           <a href="">Fingerprint Scanner</a>
           <a href="">Barcode Scanner</a>
+          <a href="">Motion Sensor</a>
   
         </div>
       </li>
@@ -18,9 +19,9 @@
       <a href="javascript:void(0)" class="dropbtn">Meet The Team</a>
       <div class="dropdown-content">
         <a href="../Meet The Team/Rodriguez.php">Sgt. Rodriquez</a>
-        <a href="">Cpl. HernandezRoman</a>
-        <a href="">Lcpl. Poole</a>
-        <a href="">Lcpl. Cheuk</a>
+        <a href="../Meet The Team/Hernandez.php">Cpl. HernandezRoman</a>
+        <a href="../Meet The Team/Poole.php">Lcpl. Poole</a>
+        <a href="../Meet The Team/Cheuk.php">Lcpl. Cheuk</a>
 
       </div>
     </li>
@@ -40,7 +41,7 @@
       <div class="imgcontainer">
         <span onclick="document.getElementById('id01').style.display='none'" class="close"
           title="Close Modal">&times;</span>
-        <img src="" alt="Avatar" class="avatar">
+        <img src="../Images/login.png" alt="Avatar" class="avatar">
       </div>
 
       <div class="container">

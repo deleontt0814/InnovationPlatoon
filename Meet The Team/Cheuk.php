@@ -5,9 +5,9 @@
 
 
   <?php include '/Applications/MAMP/htdocs/Innovation/Assets/head.php'; ?>  
-  <style><?php include '/Applications/MAMP/htdocs/Innovation/Meet The Team/Rodriguez.css'?></style>
+  <style><?php include '/Applications/MAMP/htdocs/Innovation/Meet The Team/Cheuk.css'?></style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <title>Sgt. Rodriguez | Plt Sgt.</title> <!-- title on webpage tab-->
+  <title>LCpl. Cheuk | Title</title> <!-- title on webpage tab-->
 </head>
 
 <body>
@@ -27,8 +27,8 @@
   <div class="row">
     <div class="leftcolumn">
       <div class="card">
-        <h2>Sergeant Rodriguez</h2>
-        <h5>Platoon Sergeant</h5>
+        <h2>LCpl Cheuk</h2>
+        <h5>Developer</h5>
         <div class="../Images/SgtRod.png" style="height:400px;">Image</div>
         <p>Some text..</p>
         <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod

@@ -24,20 +24,20 @@ img {margin-bottom: -8px;}
     <img class="w3-image" src="../Images/DroneFlyingSky.png" alt="Image 1" style="min-width:500px" width="1500" height="1000">
     <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
       <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
-        <h1 class="w3-xlarge">Changing the shape of the battlefield</h1>
+        <h1 class="w3-xlarge">Changing the battlefield forever</h1>
         <hr class="w3-opacity">
-        <p>Super simple installment: free of charge</p>
+        <p>Agile, quick, and quiet method to see our enemies when they least expect</p>
         <p><button class="w3-button w3-block w3-green w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
       </div>
     </div>
   </div>
   <div class="mySlides w3-animate-opacity">
-    <img class="w3-image" src="../Images/DroneInHand.png" alt="Image 2" style="min-width:500px" width="1500" height="1000">
+    <img class="w3-image" src="../Images/PooleBuildingDrone.png" alt="Image 2" style="min-width:500px" width="1500" height="1000">
     <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
       <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
-        <h1 class="w3-xlarge w3-text-red"><b>CLICK!</b> Fast and Easy</h1>
+        <h1 class="w3-xlarge w3-text-red"><b>Engineered for success</b> </h1>
         <hr class="w3-opacity">
-        <p>Choose from thousands of features</p>
+        <p>Built to be strong and durable by our nations finest</p>
         <p><button class="w3-button w3-block w3-red w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
       </div>
     </div>

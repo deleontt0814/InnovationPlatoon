@@ -26,9 +26,11 @@
       </div>
     </li>
 
+    <li><a href="../Comments/comments.php">Comments</a></li>
+
     <div class="topnav-right">
       <li><button onclick="document.getElementById('id01').style.display='block'">Login</button></li>
-      <li><a href="/Applications/MAMP/htdocs/Innovation/Homepage/register.html">Register</a></li>
+      <li><a href="../Register/register.php">Register</a></li>
     </div>
   </ul>
   <!-- Menu End -->

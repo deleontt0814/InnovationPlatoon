@@ -85,15 +85,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       <p><strong>Curious</strong> about joining our team or what we do, send us a message:</p>
       <form action="/action_page.php" target="_blank">
 
-        <p><input for="name" name="name" type="text" class="w3-input w3-padding-16 w3-border"placeholder="Name and Rank" required ></p>
+        <p><input for="name" name="name" type="text" class="w3-input w3-padding-16 w3-border"placeholder="Name and Rank"  ></p>
         
-        <p><input for="unit" name="unit" type="text" class="w3-input w3-padding-16 w3-border"  placeholder="Unit" required></p>
+        <p><input for="unit" name="unit" type="text" class="w3-input w3-padding-16 w3-border"  placeholder="Unit" ></p>
         
         <!-- <p><input for="comment" name="comment" class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required
              value="2017-11-16T20:00"></p> -->
         
         <p><input for="comment" name="comment" class="w3-input w3-padding-16 w3-border" type="text" placeholder="Leave us a message"
             required></p>
+
+            <!-- XSS: <IMG SRC=# onmouseover="alert('xxs')"> -->
+
         
         <p><button name="execute" id="execute" class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
       </form>

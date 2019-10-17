@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
   
 <?php include '/Applications/MAMP/htdocs/Innovation/Assets/head.php'; ?>  
-<style><?php include '/Applications/MAMP/htdocs/Innovation/Homepage/homepagestyle.css'?></style>
+<style><?php include '/Applications/MAMP/htdocs/Innovation/Comments/comments.css'?></style>
 <title>Comments</title>
 </head>
 
@@ -36,24 +36,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   <?php include '/Applications/MAMP/htdocs/Innovation/Assets/menu.php';?>
 
-  <div class="maincontrolbox">
+  <div class="maincontrolbox" style="w3-center">
         <form id="phpbasics" name="phpbasics" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data">
-        <input type="submit" name="execute" id="execute" value="Show records"><br><br>
+        <input type="submit" name="execute" id="execute" value="Refresh"><br><br>
 
 </form>
-<span style="...">Result</span>:<br>
-<div id="resultbox">
+<span ><h1 style="margin-left: 10%;">Comments</h1></span>:<br>
+<div class="w3-panel w3-sand w3-round-xlarge w3-center">
 
 <?php if (isset($_POST['execute'])) {
 
-    $i = 1;
-
     while ($row = $result->fetch_assoc()) {
         
-        echo "" . $row['name'] . "<br>" . $row['unit'] . "<br>" . $row['comment'] . "<br>";
-        $i+=1;
+        echo "" . $row['comment'] . "<br>" . $row['name'] . ", " . $row['unit'] . "<br><br>";
+      
     }
-
 
 } ?>
 

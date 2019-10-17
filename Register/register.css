@@ -79,7 +79,7 @@ body {
   
   /* Set a style for the submit button */
   .registerbtn {
-    background-color: rgb(76, 175, 175);;
+    background-color: red;
     color: white;
     padding: 16px 20px;
     margin: 8px 0;

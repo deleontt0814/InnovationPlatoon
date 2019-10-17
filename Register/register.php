@@ -78,15 +78,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
             <button type="submit" name="execute" id="execute" class="registerbtn">Register</button>
-        
-            <span style="font-weight: bold;">Result</span>:<br>
-            <div id="resultbox">
- 
-            <?php if (isset($_POST['execute'])){
- 
-            echo $result ;
- 
-            }  ?>
  
             </div>
           </div>

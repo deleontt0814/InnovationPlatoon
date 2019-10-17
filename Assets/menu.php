@@ -8,9 +8,9 @@
         <a href="javascript:void(0)" class="dropbtn">New Technology</a>
         <div class="dropdown-content">
           <a href="../NewTechnology/Drone.php">Unmanned Drone</a>
-          <a href="">Fingerprint Scanner</a>
+          <!-- <a href="">Fingerprint Scanner</a>
           <a href="">Barcode Scanner</a>
-          <a href="">Motion Sensor</a>
+          <a href="">Motion Sensor</a> -->
   
         </div>
       </li>
@@ -19,8 +19,8 @@
       <a href="javascript:void(0)" class="dropbtn">Meet The Team</a>
       <div class="dropdown-content">
         <a href="../Meet The Team/Rodriguez.php">Sgt. Rodriquez</a>
-        <a href="../Meet The Team/Hernandez.php">Cpl. HernandezRoman</a>
-        <a href="../Meet The Team/Poole.php">Lcpl. Poole</a>
+        <!-- <a href="../Meet The Team/Hernandez.php">Cpl. HernandezRoman</a> -->
+        <!-- <a href="../Meet The Team/Poole.php">Lcpl. Poole</a> -->
         <a href="../Meet The Team/Cheuk.php">Lcpl. Cheuk</a>
 
       </div>

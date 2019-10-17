@@ -19,15 +19,15 @@ img {margin-bottom: -8px;}
 
 <!-- Header with Slideshow -->
 <header class="w3-display-container w3-center">
-  <button class="w3-button w3-block w3-green w3-hide-large w3-hide-medium" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button>
+  <button class="w3-button w3-block w3-green w3-hide-large w3-hide-medium" onclick="document.getElementById('download').style.display='block'">Find Out More</button>
   <div class="mySlides w3-animate-opacity">
-    <img class="w3-image" src="../Images/DroneFlyingSky.png" alt="Image 1" style="min-width:500px" width="1500" height="1000">
+    <img class="w3-image" src="../Images/RodAndDrone.png" alt="Image 1" style="min-width:500px" width="1500" height="1000">
     <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
       <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
         <h1 class="w3-xlarge">Changing the battlefield forever</h1>
         <hr class="w3-opacity">
         <p>Agile, quick, and quiet method to see our enemies when they least expect</p>
-        <p><button class="w3-button w3-block w3-green w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
+        <p><button class="w3-button w3-block w3-green w3-round" onclick="document.getElementById('download').style.display='block'">Find Out More</button></p>
       </div>
     </div>
   </div>
@@ -38,7 +38,7 @@ img {margin-bottom: -8px;}
         <h1 class="w3-xlarge w3-text-red"><b>Engineered for success</b> </h1>
         <hr class="w3-opacity">
         <p>Built to be strong and durable by our nations finest</p>
-        <p><button class="w3-button w3-block w3-red w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
+        <p><button class="w3-button w3-block w3-red w3-round" onclick="document.getElementById('download').style.display='block'">Find Out More</button></p>
       </div>
     </div>
   </div>
@@ -48,8 +48,8 @@ img {margin-bottom: -8px;}
       <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
         <h1 class="w3-xlarge">Smart Design</h1>
         <hr class="w3-opacity">
-        <p>Customize photos as you go</p>
-        <p><button class="w3-button w3-block w3-indigo w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
+        <p>Pushing the limits of todays military technology.</p>
+        <p><button class="w3-button w3-block w3-indigo w3-round" onclick="document.getElementById('download').style.display='block'">Find Out More</button></p>
       </div>
     </div>
   </div>
@@ -61,14 +61,13 @@ img {margin-bottom: -8px;}
 <div class="w3-padding-64 w3-white">
   <div class="w3-row-padding">
     <div class="w3-col l8 m6">
-      <h1 class="w3-jumbo"><b>The App</b></h1>
-      <h1 class="w3-xxxlarge w3-text-green"><b>Why buy it?</b></h1>
-      <p><span class="w3-xlarge">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      <!-- <button class="w3-button w3-light-grey w3-padding-large w3-section w3-hide-small" onclick="document.getElementById('download').style.display='block'">
-        <i class="fa fa-download"></i> Download Application
-      </button> -->
-      <!-- <p>Available for <i class="fa fa-android w3-xlarge w3-text-green"></i> <i class="fa fa-apple w3-xlarge"></i> <i class="fa fa-windows w3-xlarge w3-text-blue"></i></p> -->
+      <h1 class="w3-jumbo"><b>The Drone</b></h1>
+      <h1 class="w3-xxxlarge w3-text-green"><b>The future of warfare</b></h1>
+      <p><span class="w3-xlarge">Expand our capabilities on the battlefield</span> The drone is lightweight and compact, with a low profile, allowing our Marines to gather information
+    on our enemies without exposing ourselves. Motion sensors on the drone provide us the ability to track movements and identify threats from above. </p>
+    <div class="w3-col l4 m6">
+      <img class="w3-image w3-round-large w3-hide-small w3-grayscale" src="../Images/DroneFlyingSky.png" alt="App" width="800" height="600">
+    </div>
     </div>
     <div class="w3-col l4 m6">
       <img src="../Images/PooleDrone.png" class="w3-image w3-right w3-hide-small" width="335" height="471">
@@ -76,7 +75,6 @@ img {margin-bottom: -8px;}
         <button class="w3-button w3-block w3-padding-large" onclick="document.getElementById('download').style.display='block'">
           <i class="fa fa-download"></i> Download Application
         </button>
-        <img src="../Images/PooleDrone.png" class="w3-image w3-margin-top" width="335" height="471">
       </div>
     </div>
   </div>
@@ -87,11 +85,20 @@ img {margin-bottom: -8px;}
   <div class="w3-modal-content" style="padding:32px">
     <div class="w3-container w3-white">
       <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
-      <h2 class="w3-wide">DOWNLOAD</h2>
-      <p>Download the app in AppStore, Google Play or Microsoft Store.</p>
-      <i class="fa fa-android w3-large"></i> <i class="fa fa-apple w3-large"></i> <i class="fa fa-windows w3-large"></i>
-      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
-      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('download').style.display='none'">Fake Download</button>
+      <h2 class="w3-wide">Want to learn more?</h2>
+      <p>Contact us if you think you have what it takes</p>     
+      <p><input for="name" name="name" type="text" class="w3-input w3-padding-16 w3-border"placeholder="Name and Rank" required ></p>
+        
+        <p><input for="unit" name="unit" type="text" class="w3-input w3-padding-16 w3-border"  placeholder="Unit" required></p>
+        
+        <!-- <p><input for="comment" name="comment" class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required
+             value="2017-11-16T20:00"></p> -->
+        
+        <p><input for="comment" name="comment" class="w3-input w3-padding-16 w3-border" type="text" placeholder="Leave us a message"
+            required></p>
+        
+        <p><button name="execute" id="execute" class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+     
     </div>
   </div>
 </div>
@@ -100,13 +107,14 @@ img {margin-bottom: -8px;}
 <div class="w3-padding-64 w3-light-grey">
   <div class="w3-row-padding">
     <div class="w3-col l4 m6">
-      <img class="w3-image w3-round-large w3-hide-small w3-grayscale" src="../Images/DroneAssembly.png" alt="App" width="335" height="471">
+      <img class="w3-image w3-round-large w3-hide-small w3-grayscale" src="../Images/RodAndComputer2.png" alt="App" width="435" height="571">
     </div>
     <div class="w3-col l8 m6">
       <h1 class="w3-jumbo"><b>Clarity</b></h1>
-      <h1 class="w3-xxxlarge w3-text-red"><b>Pixels, who?</b></h1>
-      <p><span class="w3-xlarge">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <h1 class="w3-xxxlarge w3-text-red"><b>Beyond the fog of War</b></h1>
+      <p><span class="w3-xlarge">Motion Sensor Camera</span> Adding clarity to todays conflicts, the drone comes equipped with two cameras. 
+    One camera facing the front primarily used by the controllers for piloting the device. A second camera is located in the underbelly of the drone equipped with a 
+  motion sensor, allowing our Marines to see beyond the human eye.</p>
     </div>
   </div>
 </div>
@@ -114,7 +122,7 @@ img {margin-bottom: -8px;}
 <!-- Features Section -->
 <div class="w3-container w3-padding-64 w3-dark-grey w3-center">
   <h1 class="w3-jumbo"><b>Features</b></h1>
-  <p>This app is just so lorem ipsum.</p>
+  <p>More than the average device.</p>
 
   <div class="w3-row" style="margin-top:64px">
     <div class="w3-col s3">
@@ -173,45 +181,6 @@ img {margin-bottom: -8px;}
     </div>
   </div>
 </div>
-
-<!-- Pricing Section
-<div class="w3-padding-64 w3-center w3-white">
-  <h1 class="w3-jumbo"><b>Pricing</b></h1>
-  <p class="w3-large">Choose a pricing plan that fits your needs.</p>
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-half w3-section">
-      <ul class="w3-ul w3-card w3-hover-shadow">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16"><b>250</b> Photos</li>
-        <li class="w3-padding-16"><b>10</b> Features</li>
-        <li class="w3-padding-16"><b>No</b> Ads</li>
-        <li class="w3-padding-16"><b>Office hours</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-opacity">$ 25</h2>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large" onclick="document.getElementById('download').style.display='block'"><i class="fa fa-download"></i> Download</button>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-half w3-section">
-      <ul class="w3-ul w3-card w3-hover-shadow">
-        <li class="w3-red w3-xlarge w3-padding-32">Premium</li>
-        <li class="w3-padding-16"><b>1000</b> Photos</li>
-        <li class="w3-padding-16"><b>50</b> Features</li>
-        <li class="w3-padding-16"><b>No</b> Ads</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-opacity">$ 99</h2>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large" onclick="document.getElementById('download').style.display='block'"> <i class="fa fa-download"></i> Download</button>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <br>
-</div> -->
 
 <script>
 // Slideshow

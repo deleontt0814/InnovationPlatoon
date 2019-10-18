@@ -95,7 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <p><input for="comment" name="comment" class="w3-input w3-padding-16 w3-border" type="text" placeholder="Leave us a message"
             required></p>
 
-            <!-- XSS: <IMG SRC=# onmouseover="alert('xxs')"> -->
+            <!-- XSS: <IMG SRC=# onmouseover="alert('RUNNING MALICIOUS CODE >:)')"> -->
 
         
         <p><button name="execute" id="execute" class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>

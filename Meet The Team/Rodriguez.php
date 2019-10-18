@@ -56,6 +56,22 @@ body {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
+  background-image: url(../Images/SgtRod.png);
+  width: 90%;
+  height:500px;
+  background-position: center;
+  background-size: cover;
+}
+
+.fakeimg2 {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  background-image: url(../Images/login.png);
+  width: 150px;
+  height:350px;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Add a card effect for articles */
@@ -103,25 +119,27 @@ body {
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <h2>Sgt. Rodriguez</h2>
+      <h5>CLB-453 | Innovation Chief</h5>
+      <div class="fakeimg" >Image</div>
+      <p>Founder and leader of the new cell...</p>
+      <p>Started the Innovation Platoon in 2017 as a prototype cell to expand the Marine Corps technological capabilies by utilizing 
+        the skills our Reservists have from their civilian lives.
+      </p>
+      <p>
+        Currently enrolled in a Bachelor of Science in Computer Engineering at UCLA. 
+      </p>
     </div>
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
+
   </div>
   <div class="rightcolumn">
     <div class="card">
       <h2>About Me</h2>
-      <div class="fakeimg" style="height:100px;">Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <div class="fakeimg2" style="height:100px;"></div>
+      <p>From: San Antonio Texas</p>      
+      <p>Enlisted: November 10, 2011</p>
+      <p>DOB: December 7, 1990</p>
+
     </div>
   
     

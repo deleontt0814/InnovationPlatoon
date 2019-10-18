@@ -1,3 +1,37 @@
+<?php 
+
+function debug_to_console($data) {
+  $output = $data;
+  if (is_array($output))
+      $output = implode(',', $output);
+
+  echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+}
+
+include 'dbconnection.php';
+
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+  $prep = $db->prepare ("INSERT INTO comments (name,unit,comment) VALUES (? ,?, ?)");
+  
+  $prep->bind_param('sss', $name, $unit, $comment);
+
+  $name = $_POST['name'];
+  $unit = $_POST['unit'];
+  $comment = $_POST['comment'];
+
+  $prep->execute();
+  $result = $db->insert_id ;
+  $prep->close();
+
+  debug_to_console($name);
+  debug_to_console($unit);
+  debug_to_console($comment);
+
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <title>The Drone</title>
@@ -81,6 +115,7 @@ img {margin-bottom: -8px;}
 </div>
 
 <!-- Modal -->
+<form id="phpbasics" name="phpbasics" action=<?php echo $_SERVER['PHP_SELF'];?> method="post" enctype="multipart/form-data">
 <div id="download" class="w3-modal w3-animate-opacity">
   <div class="w3-modal-content" style="padding:32px">
     <div class="w3-container w3-white">

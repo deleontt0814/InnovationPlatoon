@@ -14,8 +14,8 @@
 
   <!-- Banner -->
    <div class="hero-image">
-    <div class="hero-text">
-    </div>
+      <div class="hero-text">
+      </div>
   </div> 
   <!-- Banner End -->
 

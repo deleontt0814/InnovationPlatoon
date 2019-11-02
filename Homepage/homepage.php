@@ -77,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   </div>
 
   <!-- Contact/Area Container -->
-  <form id="phpbasics" name="phpbasics" action="<?php echo $_SERVER['PHP_SELF'];?>" method="post" enctype="multipart/form-data">
+  <form id="phpbasics" name="phpbasics" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data">
   <div class="w3-container" id="where" style="padding-bottom:32px;">
     <div class="w3-content" style="max-width:700px">
       <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">QUESTIONS?</span></h5>
